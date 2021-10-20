@@ -1,0 +1,1 @@
+cat kakeibo.txt| awk '{tax= ($1<20191001||$2~"^*")?$3*1.08 : $3*1.10;s+=int(tax)}END{print s}'
