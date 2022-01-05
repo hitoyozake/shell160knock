@@ -1,0 +1,1 @@
+cat gijiroku.txt | sed -r 's/^すず/鈴木/g' | sed -r 's/^さと/佐藤/g' | sed -r 's/^やま/山田/g'
