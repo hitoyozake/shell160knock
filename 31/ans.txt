@@ -1,0 +1,1 @@
+cat input.txt | sed -re "s/<strong>(.+)<\/strong>/<strong>\U\1<\/strong>/g"
