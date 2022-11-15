@@ -1,0 +1,1 @@
+paste <(grep -o . kaibun.txt) <(grep -o . kaibun.txt | tac) | awk '$1!=$2'
