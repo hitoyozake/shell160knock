@@ -1,0 +1,1 @@
+cat prob.txt | sed -E -z 's/(.+)\1/\n\[\1\1\]\n/g'| grep "]" | tr -d ] | tr -d [

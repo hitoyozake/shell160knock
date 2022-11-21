@@ -1,0 +1,1 @@
+ cat kaubin.txt | { while read v; do if [ $v = `echo $v|rev` ]; then echo $v; fi; done; }
