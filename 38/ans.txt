@@ -1,0 +1,1 @@
+cat this_is_it.txt | sed -E 's/\&(amp;)+quot;/"/g'
